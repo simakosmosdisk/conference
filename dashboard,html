@@ -116,7 +116,7 @@
   
         <div class="col-sm-3">
   
-          <select class="form-select form-select-lg">
+          <select class="form-select form-select-lg ">
             <option selected>Slika</option>
             <option value="1">Slika 1</option>
             <option value="2">Slika 2</option>
