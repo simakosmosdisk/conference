@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Naslovna - Travel </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white" href="index.html"> <img src="img/logo.png" alt="" width="50">
+        Putovanja</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="putovanja.html">Putovanja</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="dashboard.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="detalji.html">Detalji</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero d-flex flex-column align-items-center justify-content-center text-white">
+    <h1 class="fw-bold display-5">Where do you want to go?</h1>
+    <p>Fill this form and our manager will contact you</p>
+    <form class="row gx-3 gy-2 align-items-center container">
+      <div class="col-sm-3">
+
+        <input type="text" class="form-control form-control-lg" placeholder="Odrediste">
+      </div>
+
+      <div class="col-sm-3">
+
+        <select class="form-select form-select-lg">
+          <option selected>Mesec</option>
+          <option value="1">Januar</option>
+          <option value="2">Februar</option>
+          <option value="3">Mart</option>
+        </select>
+      </div>
+
+      <div class="col-sm-3">
+
+        <select class="form-select form-select-lg">
+          <option selected>Sortiraj</option>
+          <option value="1">Cena</option>
+          <option value="2">Destinacija</option>
+        </select>
+      </div>
+
+      <div class="col-sm-3">
+        <button type="submit" class="btn btn-danger btn-lg w-100">Submit</button>
+      </div>
+    </form>
+  </section>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
